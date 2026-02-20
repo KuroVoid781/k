@@ -1,0 +1,82 @@
+*{
+   box-sizing: border-box ;
+   margin: 0px;
+   padding: 0px;
+}
+
+body{
+     background-color: #141414;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     font-family: "Inter";
+}
+.container {
+    width: 384px;
+    margin: auto;
+    border: 0px;
+    padding: 40px 40px 40px 40px;
+    background-color: #1F1F1F;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .proflie-container{
+        display: flex;
+        justify-content: center;
+        img{
+           width: 88px;
+           height: 88px;
+           object-fit: cover;
+           border-radius: 999px;
+        }
+    }
+
+    .name-container {
+       h1{
+          color: white;
+          text-align: center;
+          font-weight: 700;
+          line-height: 150%;
+
+        } 
+        h2{
+            color: greenyellow;
+            text-align: center;
+            font-weight: 700;
+            line-height: 150%;
+        }
+    }
+
+    .des-container {
+       p{
+          color: white;
+          text-align: center;
+        }
+    }
+
+    .socai-container{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        a{
+            background-color: #33333333;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            width: 304px;
+            padding: 12px 12px  12px 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700
+        }
+
+        a:hover {
+          background-color: #C4F82A;
+          color: black;
+          transition: ease 0.5s;  
+        }
+    }   
+}
